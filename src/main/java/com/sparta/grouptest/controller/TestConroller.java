@@ -14,6 +14,13 @@ public class TestConroller {
     @GetMapping("api/test2")
     public String test2() { return "test2: PR확인해보기"; }
 
+    @GetMapping("api/test3-1")
+    public String test3() { return "test3-1: 충돌 발생"; }
+
     @GetMapping("api/test3-2")
-    public String test3() { return "test3-2: 충돌 발생"; }
-}
+    public String test3_2() { return "test3-2: 충돌 발생"; }
+
+
+    @GetMapping("api/test4")
+    public String test4() { return "test4: rebase 사용"; }
+    }
