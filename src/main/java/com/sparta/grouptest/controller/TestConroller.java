@@ -7,4 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestConroller {
     @GetMapping("api/test")
     public String test() { return "레파지토리 연결"; }
+
+    @GetMapping("api/test1")
+    public String test1() { return "dev환경에서 작업"; }
 }
