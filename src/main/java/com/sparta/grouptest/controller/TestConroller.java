@@ -11,6 +11,6 @@ public class TestConroller {
     @GetMapping("api/test1")
     public String test1() { return "test1: 로컬 dev환경에서 작업"; }
 
-    @GetMapping("api/test2")
-    public String test2() { return "test2: PR확인해보기"; }
+    @GetMapping("api/test3")
+    public String test3() { return "test3: 충돌 발생"; }
 }
