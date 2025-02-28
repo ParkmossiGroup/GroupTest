@@ -23,4 +23,4 @@ public class TestConroller {
 
     @GetMapping("api/test4")
     public String test4() { return "test4: rebase 사용"; }
-}
+    }
