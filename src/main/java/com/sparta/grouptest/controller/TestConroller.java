@@ -9,5 +9,5 @@ public class TestConroller {
     public String test() { return "레파지토리 연결"; }
 
     @GetMapping("api/test1")
-    public String test1() { return "dev환경에서 작업"; }
+    public String test1() { return "test1: 로컬 dev환경에서 작업"; }
 }
